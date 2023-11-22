@@ -1,4 +1,4 @@
-var questions = [
+var twisters = [
     "Peter Piper picked a peck of pickled peppers.\
     A peck of pickled peppers Peter Piper picked.\
     If Peter Piper picked a peck of pickled peppers,\
@@ -68,7 +68,7 @@ var questions = [
     "What talent would you show off in a talent show?",
 ];
 
-function newQuestion() {
-    var randomNumber = Math.floor(Math.random() * (questions.length));
-    document.getElementById('questionDisplay').innerHTML = questions[randomNumber];
+function newTwister() {
+    var randomNumber = Math.floor(Math.random() * (twisters.length));
+    document.getElementById('twisterDisplay').innerHTML = twisters[randomNumber];
 }
